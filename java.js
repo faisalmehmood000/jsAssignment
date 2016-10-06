@@ -8,12 +8,11 @@ alert("Welcome  " + cel + "!");
 
 }
 var cong = "Congratulation " + cel ;
-var papers = ["urdu" , "Islamiat" , "math" , "science" ,"bio" ];
-papers[00] = parseInt (prompt("Enter Your Urdu Marks" , "your Marks")) ;
-papers[01] = parseInt (prompt("Enter Your Islamiat Marks" , "your Marks"));
-papers[02] = parseInt (prompt("Enter Your Math Marks" , "your Marks"));
-papers[03] = parseInt (prompt("Enter Your Science Marks" , "your Marks"));
-papers[04] = parseInt (prompt("Enter Your Bio Marks" , "your Marks"));
+var papers = ["urdu"( parseInt (prompt("Enter Your Urdu Marks" , "your Marks"))) ,
+"Islamiat" ( parseInt (prompt("Enter Your Islamiat Marks" , "your Marks"))),
+ "Math" (parseInt (prompt("Enter Your Math Marks" , "your Marks"))),
+ "science"(parseInt (prompt("Enter Your Science Marks" , "your Marks"))),
+"bio"(parseInt (prompt("Enter Your Bio Marks" , "your Marks"))),];
 
 var total = papers[00]+papers[01]+papers[02]+papers[03]+papers[04];
 var p = (total/500)*100;
